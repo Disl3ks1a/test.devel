@@ -1,4 +1,5 @@
 <?php
+
 $host_name='localhost'; //имя хоста
 $user_name='anton'; //логин базы данных MariaDB
 $pass_word='anton'; //пароль базы данных MariaDB
