@@ -1,4 +1,5 @@
 <?php
+
 include_once("connect.php");
 $select_db = "USE test_database";
 if (mysqli_query($link, $select_db)) {

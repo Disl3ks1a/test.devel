@@ -1,4 +1,5 @@
 <?php
+
 include_once("connect.php");
 $sql = "CREATE DATABASE test_database CHARACTER SET utf8 COLLATE utf8_general_ci";
 if (mysqli_query($link, $sql)) {

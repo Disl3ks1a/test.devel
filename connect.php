@@ -1,4 +1,5 @@
 <?php
+
 include_once ('variables_and_passwords.php');
 $link = mysqli_connect($host_name, $user_name, $pass_word, ""); //переменные лежат в variables_and_passwords.php
 if ($link === false) {
